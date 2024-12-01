@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../Stylesheets/contact.css">
+    <script src="../index.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "vmgrBdFVoE4vY0Ah7",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <nav class="homepage-navigation-bar">
+        <ul>
+            <a href="http://127.0.0.1:5500/Info%20HTML/main.html?" class="home-icon">
+                <img src="../Pictures/home.png" id="homePic">
+            </a>
+            <li><a href="http://127.0.0.1:5500/Info%20HTML/contact.html?">Contact</a></li>
+            <li><a href="http://127.0.0.1:5500/Info%20HTML/hobbies.html?">Hobbies</a></li>
+            <li><a href="http://127.0.0.1:5500/Info%20HTML/experience.html?">Experience</a></li>
+            <li><a href="http://127.0.0.1:5500/Info%20HTML/projects.html?">Projects</a></li>
+
+        </ul>
+    </nav>
+    <div id="nav-bar"></div>
+    <div class="main-container">
+        <div class="contact-box">
+            <form class="user-input-class">
+                <h1>Let's get in touch!</h1>
+                <div class="name-input-class">
+                    <label for="firstName" id="subject">Your name: </label><br>
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="mail-input-class">
+                    <label for="emailInput" id="subject">Your email: </label><br>
+                    <input type="text" id="emailInput" placeholder="Type your mail here">
+                </div>
+                <textarea name="Message" class="message-box" cols="30" rows="4"
+                    placeholder="Write me a message" id="messageBox"></textarea><br>
+
+                <div class="my-social-container">
+                    <button id="submitBtn" style="display: inline;">Send</button>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/profile.php?id=100029055967311" target="_blank"
+                            class="facebook-icon">
+                            <img src="../Pictures/facebook.png" alt="">
+                        </a>
+                        <a href="https://github.com/hieunguyen2711" target="_blank" class="github-icon">
+                            <img src="../Pictures/github.png">
+                        </a>
+                        <a href="https://www.instagram.com/_hieu.wuqq_/" class="ig-icon" target="_blank">
+                            <img src="../Pictures/instagram.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/the-hieu-nguyen-7681b12b1/" class="linkedin-icon"
+                            target="_blank">
+                            <img src="../Pictures/linkedin.png" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

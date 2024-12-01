@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(39, 38, 38);
+}
+
+.homepage-navigation-bar ul {
+    list-style-type: none;
+    background-color: rgb(84, 83, 83);
+    overflow: hidden;
+}
+
+.homepage-navigation-bar li a
+ {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.homepage-navigation-bar a:hover {
+    background-color: rgb(127, 127, 127);
+}
+
+.homepage-navigation-bar li {
+    float: right;
+    margin-right: 20px;
+}
+
+.home-icon {
+    float: left;
+    margin-left: 15px;
+    margin-right: auto;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding:5px;
+    margin-top: 10px;
+}
+#homePic {
+    width: 30px;
+    height: 25px;
+}
+
+.onclick {
+    background-color: white;
+    color:black;
+}

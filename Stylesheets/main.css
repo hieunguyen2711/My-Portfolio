@@ -1,0 +1,72 @@
+@import "general.css";
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 10px 5px; */
+    margin:0;
+}
+
+.intro-content {
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.title {
+    font-size: 3rem;
+    width: 400px;
+    margin-bottom: 30px;
+}
+.hi {
+    display: inline;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.pic img {
+    padding: 0;
+    width: 50vw;
+    height: 100vh;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    align-items: center;
+    margin-right: 0px;
+}
+
+button {
+    padding: 10px 15px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+    color: #ffffff;
+    /* White text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a shadow */
+}
+
+button:active {
+    background-color: #075b0c;
+    /* Darker green on hover */
+    color: #ffffff;
+    /* White text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a shadow */
+}
+/* .hi-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */

@@ -1,0 +1,50 @@
+.icons {
+    margin-left: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 25px; */
+    justify-content: space-between;
+}
+
+
+
+.github-icon,
+.ig-icon,
+.linkedin-icon,
+.facebook-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Ensures the image is contained within the circle */
+    /* right: 3px;
+    bottom:2px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-icon img,
+.ig-icon img,
+.linkedin-icon img,
+.facebook-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the entire area */
+    border-radius: 50%;
+    /* Ensures the image itself is circular */
+}
+
+.github-icon:hover,
+.facebook-icon:hover,
+.ig-icon:hover,
+.linkedin-icon:hover {
+    transform: scale(1.2);
+    /* Slightly enlarges the icon on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    /* Darkens and expands the shadow on hover */
+}

@@ -1,0 +1,75 @@
+@import "general.css";
+@import "icons.css";
+
+input{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    border:none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: #ffffff; /* White text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+button:active {
+    background-color: #075b0c; /* Darker green on hover */
+    color: #ffffff; /* White text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.user-input-class {
+    padding: 10px;
+}
+
+.contact-box {
+    border: solid;
+    border-width: 2px;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 30px;
+}
+.message-box {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+form div, button {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 17px;
+}
+
+
+.my-social-container {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-right: 10px; */
+    /* position: relative; */
+    margin-top: 10px;
+}
+
+
